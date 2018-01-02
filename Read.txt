@@ -1,0 +1,13 @@
+11.1.4.	System.Array is a base class for all arrays in C#
+
+Properties Defined by Array
+
+Property	Meaning
+public virtual bool IsFixedSize	Is the array fixed size or dynamic.(read-only property)
+public virtual bool IsReadOnly	Is the array read-only. (read-only property).
+public virtual bool IsSynchronized	Is the array safe for use in a multithreaded environment. (read-only property)
+public int Length	The number of elements in the array. (read-only property)
+public int Rank	The dimensions in the array. (read-only property)
+public virtual object SyncRoot
+
+

@@ -1,0 +1,34 @@
+Array. Sort			: Belirtilen dizinin küçükten büyüðe sýralanmasýný saðlar.
+
+Array. IndexOf		: Belirtilen deðerin dizi içinde olup olmadýðýný öðrenmek için kullanýlýr.
+					  Belirtilen deðer var ise geriye sýra numarasýný döndürür,yok ise  -1 deðerini döndürür. 
+Örnek				: Array.IndexOf(sayilar,3); //sayilar dizisi içinde 3 sayýsý var ise sýra numarasýný , yok ise    -1 deðerini döndürür. 
+
+Array.LastIndexOf	: Bir boyutlu bir deðerin son geçtiði dizini döndürür Array veya bir bölümünü Array
+Array.Rank			: Array boyutunu getirir..
+Array.Length		: Tüm boyutlar öðelerin toplam sayýsýný alýr Array.
+Array.GetLowerBound : Dizi içinde belirtilen boyutun ilk öðenin dizinini alýr.
+Array.Copy			: Bir dizi öðeleri kopyalar bir Array belirtilen kaynak dizinden baþlayarak ve diðerine yapýþtýrýr
+					  Array belirtilen hedef dizinden baþlayarak. Uzunluðu ve dizinleri 32-bit tamsayýlar olarak belirtilir.
+
+string[] myArray = (string[])Array.CreateInstance(typeof(string), 15);
+Array.SetValue
+Array.GetValue
+
+Array.Exists			:Belirtilen dizi belirtilen önerme tarafýndan tanýmlanan koþullarla eþleþen öðeleri içerip içermediðini belirler.
+Array.Find				:Belirtilen önerme tarafýndan tanýmlanan koþullarla eþleþen bir öðeyi arar ve ilk geçtiði tüm içinde döndürür Array.
+Array.FindLast			:Belirtilen önerme tarafýndan tanýmlanan koþullarla eþleþen bir öðeyi arar ve tüm içinde son a geçiþi döndürür Array.
+
+Array.BinarySearch		:Bir tek boyutlu sýralanmýþ arar Array için bir deðer, ikili arama algoritmasý kullanarak.
+Array.AddRange			:Belirtilen Arrayýn öðelerini sonuna ekler ->Adds the elements of an ICollection to the end of the ArrayList.
+public virtual void AddRange(ICollection c)
+
+ArrayList.Insert		:içine bir öðe ekler ArrayList belirtilen dizindeki.
+public virtual void Insert(int index,object value)
+
+ArrayList.InsertRange	:Bir koleksiyonun öðelerini ekler ArrayList belirtilen dizindeki. 
+public virtual void InsertRange(int index,ICollection c)
+
+System.Convert.ToInt16("1");
+Convert.Tostring(number)
+int.Parse(System.Console.ReadLine());
