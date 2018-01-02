@@ -13,6 +13,9 @@ class Class1
         ArrayList alPeople = new ArrayList();
         input = Console.ReadLine();
 
+
+        alPeople.Add(new Person("s", "j"));
+        alPeople.Add(new Person("t", "t"));
         alPeople.Add(new Person("a", "b"));
         alPeople.Add(new Person("x", "x"));
         alPeople.Add(new Person("y", "y"));
