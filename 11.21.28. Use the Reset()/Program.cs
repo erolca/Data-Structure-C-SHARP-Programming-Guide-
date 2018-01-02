@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 
-
 //11.21.28.	Use the Reset() method and access the first row again using MoveNext()
 
 class MainClass
@@ -30,5 +29,9 @@ class MainClass
         {
             Console.WriteLine("myEnumerator.Current = " + myEnumerator.Current);
         }
+        myEnumerator.Reset();
+        myEnumerator.MoveNext();
+        Console.WriteLine("myEnumerator.Current = " + myEnumerator.Current);
+
     }
 }
