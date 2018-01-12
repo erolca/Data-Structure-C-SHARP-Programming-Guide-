@@ -357,6 +357,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.1.User defined object
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.2. Add reference objects", "11.22.2. Add reference objects\11.22.2. Add reference objects.csproj", "{ADDE9F90-0156-4CB8-95F1-12A03439D970}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class_lib", "Class_lib", "{513068F5-52EF-4868-BFD4-8846C75AECE0}"
+	ProjectSection(SolutionItems) = preProject
+		1.Vector.cs = 1.Vector.cs
+		2.Truncate Vector2.cs = 2.Truncate Vector2.cs
+		3. Perpendicular Vector2.cs = 3. Perpendicular Vector2.cs
+		4. Vector2D struct.cs = 4. Vector2D struct.cs
+		5. Compares Vector3 values for equality.cs = 5. Compares Vector3 values for equality.cs
+		6. Rotate Vector.cs = 6. Rotate Vector.cs
+		7.Finds the cross product.cs = 7.Finds the cross product.cs
+		8. Remap a value specified relative to a pair of bounding values to the corresponding value relative to another pair of bounds.cs = 8. Remap a value specified relative to a pair of bounding values to the corresponding value relative to another pair of bounds.cs
+		9.Gets the perpendicular vector to a specified vector.cs = 9.Gets the perpendicular vector to a specified vector.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
