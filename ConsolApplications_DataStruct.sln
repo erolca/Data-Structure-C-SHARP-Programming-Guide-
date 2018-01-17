@@ -59,6 +59,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.3.3.Use the Sort() metho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01F16525-303C-47F4-AD60-4B4EEA3BC178}"
 	ProjectSection(SolutionItems) = preProject
+		array.docx = array.docx
 		Functions.txt = Functions.txt
 		Multi-dimensional Array.pdf = Multi-dimensional Array.pdf
 		Readme.md = Readme.md
@@ -431,6 +432,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{5430CC4E-27DC-4699-849A-236A88552470}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{DFE74934-CE3E-40F6-8611-134B67E9C40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.26.6. Collections interoperability", "11.26.6. Collections interoperability\11.26.6. Collections interoperability.csproj", "{8FF51974-D6FE-45E0-AA0E-8E52818D053C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2542,6 +2545,18 @@ Global
 		{DFE74934-CE3E-40F6-8611-134B67E9C40B}.Release|x64.Build.0 = Release|Any CPU
 		{DFE74934-CE3E-40F6-8611-134B67E9C40B}.Release|x86.ActiveCfg = Release|Any CPU
 		{DFE74934-CE3E-40F6-8611-134B67E9C40B}.Release|x86.Build.0 = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|x64.Build.0 = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|x64.ActiveCfg = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|x64.Build.0 = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2716,6 +2731,7 @@ Global
 		{E9048A37-5310-40A9-A049-3F6FD8875DD2} = {1023C54E-DB63-4CF3-9D73-28B2582F738F}
 		{B2CF5BA6-20E4-4B31-8E9F-B1AA24F6A027} = {1023C54E-DB63-4CF3-9D73-28B2582F738F}
 		{BCB28D1A-34F9-44D6-B7DB-92B63A3A3C17} = {1023C54E-DB63-4CF3-9D73-28B2582F738F}
+		{8FF51974-D6FE-45E0-AA0E-8E52818D053C} = {1023C54E-DB63-4CF3-9D73-28B2582F738F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {631AF0FC-62C9-4009-A7DB-CAA916A3270B}
