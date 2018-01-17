@@ -370,6 +370,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class_lib", "Class_lib", "{
 		9.Gets the perpendicular vector to a specified vector.cs = 9.Gets the perpendicular vector to a specified vector.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.3. Add object with IComparable", "11.22.3. Add object with IComparable\11.22.3. Add object with IComparable.csproj", "{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.4. ArrayList and your own object", "11.22.4. ArrayList and your own object\11.22.4. ArrayList and your own object.csproj", "{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -2156,6 +2160,30 @@ Global
 		{ADDE9F90-0156-4CB8-95F1-12A03439D970}.Release|x64.Build.0 = Release|Any CPU
 		{ADDE9F90-0156-4CB8-95F1-12A03439D970}.Release|x86.ActiveCfg = Release|Any CPU
 		{ADDE9F90-0156-4CB8-95F1-12A03439D970}.Release|x86.Build.0 = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|x64.Build.0 = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9}.Release|x86.Build.0 = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|x64.Build.0 = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Debug|x86.Build.0 = Debug|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|x64.ActiveCfg = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|x64.Build.0 = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|x86.ActiveCfg = Release|Any CPU
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2305,6 +2333,8 @@ Global
 		{43B4ABA5-9C49-4ACD-9775-16A9AC9C0C09} = {28E5E381-71CA-4142-A376-2AA7F40A21D0}
 		{99B19E08-1814-4790-B587-473F7EB98CCA} = {3B982A1B-E809-48F3-AED3-9FF6A58A6882}
 		{ADDE9F90-0156-4CB8-95F1-12A03439D970} = {3B982A1B-E809-48F3-AED3-9FF6A58A6882}
+		{2DD57D68-FCA9-406B-A8AD-3FBEC15F11B9} = {3B982A1B-E809-48F3-AED3-9FF6A58A6882}
+		{6DD10FA0-55A9-4D88-80DC-7ABDDDFBDB0F} = {3B982A1B-E809-48F3-AED3-9FF6A58A6882}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {631AF0FC-62C9-4009-A7DB-CAA916A3270B}
