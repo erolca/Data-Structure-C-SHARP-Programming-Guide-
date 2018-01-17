@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections;
 
+//11.22.5.	ArrayList and your own object: Use the Contains() method to determine if an object is in the ArrayList
 
-//	11.22.4.	ArrayList and your own object: Add objects to ArrayList
-
-class Employee : IComparable
+class Employee :IComparable
 {
     public string Name;
     public int Number;
@@ -41,6 +40,7 @@ class Employee : IComparable
     public int CompareTo(object rhs)
     {
         return Compare(this, rhs);
+       
     }
 }
 
@@ -71,6 +71,13 @@ class MainClass
         myArrayList.Add(myT);
         DisplayArrayList("myArrayList", myArrayList);
 
+        if (myArrayList.Contains(myB))
+        {
+            Console.WriteLine("myArrayList does contain myB");
+            int index = myArrayList.IndexOf(myB);
+            Console.WriteLine("myB occurs at index " + index);
+        }
+
     }
 }
 //Adding four Employee objects to myArrayList
@@ -78,3 +85,5 @@ class MainClass
 //myArrayList[1] = Name is B, Number is 2001
 //myArrayList[2] = Name is C, Number is 1999
 //myArrayList[3] = Name is T, Number is 1979
+//myArrayList does contain myB
+//myB occurs at index 1

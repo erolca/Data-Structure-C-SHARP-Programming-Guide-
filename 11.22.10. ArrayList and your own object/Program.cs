@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections;
-
-
-//	11.22.4.	ArrayList and your own object: Add objects to ArrayList
+//	11.22.10.	ArrayList and your own object: Use the GetRange() method to get a range of object elements from ArrayList
 
 class Employee : IComparable
 {
@@ -44,7 +42,6 @@ class Employee : IComparable
     }
 }
 
-
 class MainClass
 {
     public static void DisplayArrayList(string arrayListName, ArrayList myArrayList)
@@ -71,6 +68,9 @@ class MainClass
         myArrayList.Add(myT);
         DisplayArrayList("myArrayList", myArrayList);
 
+        ArrayList anotherArrayList = myArrayList.GetRange(1, 2);
+        DisplayArrayList("anotherArrayList", anotherArrayList);
+
     }
 }
 //Adding four Employee objects to myArrayList
@@ -78,3 +78,6 @@ class MainClass
 //myArrayList[1] = Name is B, Number is 2001
 //myArrayList[2] = Name is C, Number is 1999
 //myArrayList[3] = Name is T, Number is 1979
+
+//anotherArrayList[0] = Name is B, Number is 2001
+//anotherArrayList[1] = Name is C, Number is 1999
