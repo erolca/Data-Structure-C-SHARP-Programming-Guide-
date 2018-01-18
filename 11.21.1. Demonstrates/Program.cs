@@ -83,10 +83,10 @@ class Class1
         //ArrayList elements can be accessed using indexer, in the same way as an array.
         //However, you need to cast it to the appropriate type or use the implicit type var keyword while accessing it.
         //Access individual item using indexer
-       int firstElement = (int)arryList1[0]; //returns 1
-        string secondElement = (string)arryList1[1]; //returns "Two"
-        int thirdElement = (int)arryList1[2]; //returns 3
-        float fourthElement = (float)arryList1[3]; //returns 4.5
+       int firstElement         = (int)     arryList1[0]; //returns 1
+        string secondElement    = (string)  arryList1[1]; //returns "Two"
+        int thirdElement        = (int)     arryList1[2]; //returns 3
+        float fourthElement      = (float)  arryList1[3]; //returns 4.5
 
         //use var keyword
         var _firstElement = arryList1[0]; //returns 1
