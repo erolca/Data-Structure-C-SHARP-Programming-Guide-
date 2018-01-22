@@ -22,6 +22,11 @@ class MainClass
 
         foreach (string str in c)
             Console.WriteLine("{0}, Salary: {1:C}", str, dict[str]);
+
+        foreach (int item in d)
+        {
+            Console.WriteLine("{0},", item);
+        }
     }
 }
 //A, Salary: $7.00
