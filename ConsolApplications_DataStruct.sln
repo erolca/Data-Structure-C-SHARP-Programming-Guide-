@@ -777,6 +777,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.45.6. Yield with Break",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.45.7. Simple Iterator", "11.45.7. Simple Iterator\11.45.7. Simple Iterator.csproj", "{A0ACE9BD-BCF9-420F-B9D1-E3D698183820}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetCreationTime and GetLastAccessTime", "GetCreationTime and GetLastAccessTime\GetCreationTime and GetLastAccessTime.csproj", "{7F189CBF-FD77-4FC0-B801-6664116DEDA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -4543,6 +4545,18 @@ Global
 		{A0ACE9BD-BCF9-420F-B9D1-E3D698183820}.Release|x64.Build.0 = Release|Any CPU
 		{A0ACE9BD-BCF9-420F-B9D1-E3D698183820}.Release|x86.ActiveCfg = Release|Any CPU
 		{A0ACE9BD-BCF9-420F-B9D1-E3D698183820}.Release|x86.Build.0 = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Debug|x86.Build.0 = Debug|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|x64.Build.0 = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|x86.ActiveCfg = Release|Any CPU
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -4855,6 +4869,7 @@ Global
 		{5072B645-B45E-440D-8BC9-958B3AA49961} = {24979338-B44C-42C8-A8B4-5B476D9756E7}
 		{AC4CED74-CCA8-43DE-BDBE-17DAD5B0FFBD} = {24979338-B44C-42C8-A8B4-5B476D9756E7}
 		{A0ACE9BD-BCF9-420F-B9D1-E3D698183820} = {24979338-B44C-42C8-A8B4-5B476D9756E7}
+		{7F189CBF-FD77-4FC0-B801-6664116DEDA6} = {B45C76EA-3AB6-499F-85F7-1D063EBE93FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {631AF0FC-62C9-4009-A7DB-CAA916A3270B}
