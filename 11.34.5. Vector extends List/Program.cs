@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
+
+//11.34.5.	Vector extends List
+
+
 public static class VectorDelegates
 {
     public static int Compare(Vector x, Vector y)

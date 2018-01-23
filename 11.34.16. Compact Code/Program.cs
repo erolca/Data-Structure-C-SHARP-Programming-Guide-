@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+
+
+//11.34.16.	Compact Code for looping through the List with delegate
+
+
+class UglyButCompactCode
+{
+    static void Main()
+    {
+        List<int> x = new List<int>();
+        x.Add(5);
+        x.Add(10);
+        x.Add(15);
+        x.Add(20);
+        x.Add(25);
+
+        x.ForEach(delegate (int n) { Console.WriteLine(Math.Sqrt(n)); });
+    }
+}
