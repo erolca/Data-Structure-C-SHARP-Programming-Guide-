@@ -13,6 +13,7 @@ class Program
         yield return "string 3";
     }
 
+
     public static void Main(string[] args)
     {
         foreach (string item in SimpleList())
