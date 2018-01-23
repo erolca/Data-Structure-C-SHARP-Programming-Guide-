@@ -34,4 +34,4 @@ class MainClass
             Console.Write("{0} ", s);
     }
 }
-A B C
+//A B C
