@@ -398,13 +398,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.10. ArrayList and you
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.22.11. ArrayList and your own object", "11.22.11. ArrayList and your own object\11.22.11. ArrayList and your own object.csproj", "{2C292B84-4DFB-49C7-8162-C17028065997}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.23.ArrayList Display", "11.23.ArrayList Display", "{80D11697-AFBA-49BD-8598-47469F21CF8B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.23.ArrayList Display( 2 )", "11.23.ArrayList Display( 2 )", "{80D11697-AFBA-49BD-8598-47469F21CF8B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.23.1. Display the array list using", "11.23.1. Display the array list using\11.23.1. Display the array list using.csproj", "{2B7C1100-74D9-49C6-A44D-05F7FA7BA8B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.23.2. Use foreach loop to display", "11.23.2. Use foreach loop to display\11.23.2. Use foreach loop to display.csproj", "{4FB0010E-129B-450D-B16C-BCF3ED7EDDB6}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.24.ArrayList ToArray", "11.24.ArrayList ToArray", "{E842050B-0F0E-47CA-995C-3DED5143B5F6}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.24.ArrayList ToArray( 3 )", "11.24.ArrayList ToArray( 3 )", "{E842050B-0F0E-47CA-995C-3DED5143B5F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.24.1. Convert an ArrayList", "11.24.1. Convert an ArrayList\11.24.1. Convert an ArrayList.csproj", "{FEEA3F70-8C2F-4D7F-9FAB-C0B665A76009}"
 EndProject
@@ -615,7 +615,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.34.21. Use Action delega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.34.22. Item property", "11.34.22. Item property\11.34.22. Item property.csproj", "{2B5D0A6D-6418-4FB1-A125-C84977536F74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.35.IList", "11.35.IList", "{00F469CE-5571-4F66-A1CB-C278FE77D079}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.35.IList( 3 )", "11.35.IList( 3 )", "{00F469CE-5571-4F66-A1CB-C278FE77D079}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.35.1. IList  add", "11.35.1. IList  add\11.35.1. IList  add.csproj", "{9B39AE53-C013-4182-97AF-AF6A7E978D9A}"
 EndProject
